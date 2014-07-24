@@ -1,0 +1,48 @@
+﻿Version 1.1
+Solucionado Problema de cuenta de socio en el Roeporte de Cubierto
+Solucionado Problema de cantidad de Dijitos en el Ranking de Socios
+Agregado numero de Puesto en el Ranking de Socio
+Solucionado y mejora reporte Ranking, numero de Puesto y formato ###,## en totales
+Agregado Ranking de Total de Entregas
+
+Mejorado Listado CensoPlantacion (CensoPlantacionSocio.jasper)
+Mejorado Listado CensoEntrega (CensoEntrega.jasper)
+
+Version 1.2
+Agregado filtro por ciclos en el Ranking (jar)
+Solucionado Problema de Ranking (Ranking.jasper, JaR, DB (Agregar puesto a RepRanking))
+Agregado Informacion de Tolerancia (Tolerancia.jasper, jar, db(Agregar la tabla RepTolerancia)
+
+Version 1.3
+Mejorado Interfaz de Tolerancia y mejorado, agregando Ciclo y Variedad (jar)
+Solucionado problema en el censo plantacion. el ultimo id traia mal y sobre-escribia (jar)
+Agregado ventanita de "Desea Imprimir el censo?" una ve aceptado el CensoPlantacion (Jar)
+
+Version 1.4
+Solucionado problema de modificacion de variedad. Modificaba, pero la base de datos quedaba igual (jar)
+Solucionado problema de modificacion de ciudades. Modificaba, pero la base de datos queddaba igual (jar)
+Agregado Sistema de BackUp automatico por dia (Jar, carpeta "db/backUp/")
+Agregado en el panel principal una tabla de entregas (Jar)
+
+Version 1.5
+Mejorado Listado CensoEntrega (CensoEntrega.jasper)
+Modificado el listado y la ventana de tolerancia. Ahora solo muestra los socios necesarios y no todos los activos (jar, Tolerancia.jasper)
+Solucionado Problema en el CensoEntrega, no mostraba el segundo mes (.jar)
+Solucionado Problema en la fecha en el censoEntrega (.jar)
+
+Version 1.6
+Modificado el orden de las columnas en las tablas de CensoEntrega y Plantacion. (.Jar)
+Agregado Ventanita en Censo Entrega, muestra el censo de plantacion de 2 Alis (.Jar)
+Agregado Mensaje para poder guardar los censo Entrega (jar)
+Agregado Ventana de Tolerancia Individual y Reporte (.jar, ToleranciaIndividual.jasper)
+
+Version 1.7
+Quitado la importacion desde el sistema de Ricardo (.jar)
+Agregado en estadisticas total de entregas y Cambiado el reporte (.jar, Totales.jasper)
+Modificado el Reporte de Censo Plantacion para que muestre correctamente la fecha (CensoPlantacionSocio.jasper)
+Modificado la fecha del cambio por temporada en el Censo Plantacion. Comienza una nueva temporada en Agosto (.jar)
+Atrasado un año la tablita que aparece en el censo entrega al dar click al de dos años (.jar)
+
+Hasta Aca
+
+Agregar Total a Tolerancia por socio
